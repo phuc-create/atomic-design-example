@@ -1,3 +1,29 @@
+# Atomic Design Methodology
+- Folder structures with Atom ✅
+```
+📦src
+ ┣ 📂components
+ ┃ ┣ 📂atoms
+ ┃ ┣ 📂molecules
+ ┃ ┣ 📂organisms
+ ┃ ┣ 📂pages
+ ┃ ┗ 📂templates
+ ┣ 📜App.tsx
+ ┣ 📜main.tsx
+ ┣ ...rest
+ ┗ 📜vite-env.d.ts
+ ```
+
+ - Break Down
+
+| Folder               | Description |
+| -------------------- | ----------- |
+| 📂atoms              | The fundamental building blocks, like individual HTML elements (buttons, forms, labels) or basic design principles (color palettes, fonts). Think of them as the smallest, reusable units.       |
+| 📂molecules          | Groups of atoms that come together to form a more complex component. Imagine combining a button and a text field to create a search bar. Molecules are still reusable, but offer slightly more functionality.        |
+| 📂organisms   | Composed of various molecules (and sometimes atoms) to create a distinct section of your interface. A header with a logo, navigation menu, and search bar would be an organism. Organisms are self-contained and have a clear purpose.        |
+| 📂pages   | The final product –  unique instances of your templates filled with specific content.  Imagine a contact page using a header organism, a form molecule, and other components to create a functional page.        |
+| 📂templates   | Layouts that define the overall structure of your pages. Templates combine organisms to showcase how content will be organized. Think of them as blueprints for your final webpages.        |
+ 
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
