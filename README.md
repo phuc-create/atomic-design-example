@@ -16,7 +16,7 @@
 
  - Break Down
 
-| <div style="width:150px">Folder</div>               | Description |
+| <div style="width:200px">Folder</div>               | Description |
 | -------------------- | ----------- |
 | 📂 atoms     | The fundamental building blocks, like individual HTML elements (buttons, forms, labels) or basic design principles (color palettes, fonts). Think of them as the smallest, reusable units.       |
 | 📂 molecules    | Groups of atoms that come together to form a more complex component. Imagine combining a button and a text field to create a search bar. Molecules are still reusable, but offer slightly more functionality.        |
